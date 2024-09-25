@@ -1,0 +1,45 @@
+body {
+    color: whitesmoke;
+    background: rgb(2, 0, 37);
+    margin: 2px;
+    font-family: "Chakra Petch", sans-serif;
+    margin-bottom: 100px
+}
+
+header {
+    justify-content: center;
+    border-bottom: solid 2px hsl(206, 80%, 43%);
+    padding-bottom: 10px;
+    font-size: 32px;
+    color: hsl(206, 80%, 43%);
+    display: flex;
+}
+
+
+#Jingliu {
+    color: #2a3241;
+    background: #9697a9e3;
+    padding: 15px;
+    display: flex;
+    justify-content: left;
+}
+
+#Other {
+    padding: 15px;
+}
+
+#Bg {
+    display:flex;
+    overflow-x: auto;
+    gap: 10px
+}
+
+#Bg img {
+    height: 200px;
+    opacity: 0.5;
+}
+
+#bg img:hover {
+    opacity:1.0;
+    border: 3px solid  hsl(206, 80%, 43%);
+}
